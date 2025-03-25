@@ -1,14 +1,16 @@
+
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useToast } from "./ui/use-toast";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
 
 const HeroSection = () => {
   const [activeText, setActiveText] = useState("Talk");
   const textOptions = ["Talk", "Cook", "Look"];
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const textRotationTimer = setInterval(() => {
@@ -29,11 +31,8 @@ const HeroSection = () => {
     });
   };
 
-  const scrollToRecipeFilter = () => {
-    const recipeFilterSection = document.querySelector('#recipe-filter-section');
-    if (recipeFilterSection) {
-      recipeFilterSection.scrollIntoView({ behavior: 'smooth' });
-    }
+  const goToFindRecipePage = () => {
+    navigate('/find-recipe');
   };
 
   return (
@@ -97,7 +96,7 @@ const HeroSection = () => {
 
           <Button 
             variant="default"
-            onClick={scrollToRecipeFilter}
+            onClick={goToFindRecipePage}
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-lg px-8 py-6"
           >
             Find your perfect recipe

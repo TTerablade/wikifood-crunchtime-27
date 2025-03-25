@@ -15,18 +15,6 @@ const Navigation = () => {
   // Simple toggle function a human would write
   const handleMenuToggle = () => setMenuOpen(!menuOpen);
 
-  // Scroll to recipe filter section if on home page
-  const scrollToRecipeFilter = (e: React.MouseEvent) => {
-    if (location.pathname === "/" || location.pathname === "/home") {
-      e.preventDefault();
-      const recipeFilterSection = document.querySelector('#recipe-filter-section');
-      if (recipeFilterSection) {
-        recipeFilterSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  };
-
-  // Adding some random whitespace and formatting
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#ff9933] shadow-md backdrop-blur-sm">
       <div className="container mx-auto px-4">
@@ -54,9 +42,8 @@ const Navigation = () => {
               <div className="flex items-center space-x-8">
                 <Link to="/" className="text-white hover:text-gray-200 transition-colors">Home</Link>
                 <Link 
-                  to={location.pathname === "/" || location.pathname === "/home" ? "#recipe-filter-section" : "/find-recipe"} 
+                  to="/find-recipe" 
                   className="text-white hover:text-gray-200 transition-colors"
-                  onClick={scrollToRecipeFilter}
                 >
                   Find A Recipe
                 </Link>
@@ -78,9 +65,8 @@ const Navigation = () => {
             <div className="flex flex-col space-y-4">
               <Link to="/" className="text-white hover:text-gray-200 px-4 py-2 transition-colors">Home</Link>
               <Link 
-                to={location.pathname === "/" || location.pathname === "/home" ? "#recipe-filter-section" : "/find-recipe"} 
+                to="/find-recipe" 
                 className="text-white hover:text-gray-200 px-4 py-2 transition-colors"
-                onClick={scrollToRecipeFilter}
               >
                 Find A Recipe
               </Link>
