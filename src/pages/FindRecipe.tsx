@@ -43,7 +43,7 @@ const FindRecipe = () => {
             transition={{ duration: 0.5 }}
             className="text-4xl font-bold text-center mb-8"
           >
-            Find Your Perfect Recipe
+            What's on your mind?
           </motion.h1>
           
           <motion.div
