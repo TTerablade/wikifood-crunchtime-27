@@ -31,8 +31,11 @@ const HeroSection = () => {
     });
   };
 
-  const goToFindRecipePage = () => {
-    navigate('/find-recipe');
+  const scrollToRecipeFilter = () => {
+    const recipeFilterSection = document.getElementById('recipe-filter-section');
+    if (recipeFilterSection) {
+      recipeFilterSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -96,7 +99,7 @@ const HeroSection = () => {
 
           <Button 
             variant="default"
-            onClick={goToFindRecipePage}
+            onClick={scrollToRecipeFilter}
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-lg px-8 py-6"
           >
             Find your perfect recipe
