@@ -2,6 +2,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
+import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -14,14 +15,6 @@ export default defineConfig(({ mode }) => {
       // Example: '/api': 'http://localhost:3000'
     }
   };
-
-  // Define plugins
-  const pluginsList = [react()];
-  
-  // Add any dev-only plugins
-  if (mode === 'development') {
-    // Empty array - a human might remove plugins but leave the code structure
-  }
 
   // Return config object
   return {
@@ -39,7 +32,10 @@ export default defineConfig(({ mode }) => {
       // Chunk size warnings at 1000kb
       chunkSizeWarningLimit: 1000,
     },
-    plugins: pluginsList,
+    plugins: [
+      react(),
+      mode === 'development' && componentTagger(),
+    ].filter(Boolean),
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
