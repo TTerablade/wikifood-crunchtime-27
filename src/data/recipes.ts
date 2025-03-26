@@ -1,8 +1,9 @@
+
 export const recipeData = [
   {
     id: '1',
-    title: 'Classic Italian Pasta Carbonara',
-    description: 'A creamy Roman pasta dish made with eggs, cheese, pancetta, and black pepper',
+    title: 'Simple Pasta Carbonara',
+    description: 'Creamy pasta with cheese and bacon bits',
     image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'dinner',
@@ -11,32 +12,30 @@ export const recipeData = [
     servings: 4,
     ingredients: [
       '400g spaghetti',
-      '200g pancetta or guanciale, diced',
-      '4 large eggs',
-      '100g Pecorino Romano, freshly grated',
-      '100g Parmigiano Reggiano, freshly grated',
-      'Fresh black pepper',
-      'Sea salt',
-      '2 cloves garlic, minced (optional)',
+      '200g bacon, cut into small pieces',
+      '4 eggs',
+      '100g grated cheese',
+      'Black pepper',
+      'Salt',
+      '2 cloves garlic, chopped (optional)',
       '2 tablespoons olive oil'
     ],
     instructions: [
-      'Bring a large pot of salted water to boil',
-      'While waiting, whisk eggs in a bowl with grated cheeses and plenty of black pepper',
-      'Cook spaghetti according to package instructions until al dente',
-      'While pasta cooks, sauté pancetta in olive oil until crispy (about 5 minutes)',
-      'Add minced garlic to pancetta if using, cook for 30 seconds',
-      'Reserve 1 cup of pasta water before draining',
-      'Working quickly, add hot pasta to pancetta pan',
-      'Remove pan from heat, add egg mixture while constantly tossing',
-      'Add pasta water gradually until creamy consistency is achieved',
-      'Serve immediately with extra cheese and black pepper'
+      'Ask a grown-up to help you boil a big pot of water with some salt',
+      'When the water is bubbling, add the spaghetti and cook until soft but still a bit firm',
+      'While the pasta cooks, ask a grown-up to help you cook the bacon in a pan until crispy',
+      'In a bowl, mix eggs and cheese with a fork',
+      'When pasta is done, save a cup of pasta water before draining',
+      'Mix the hot pasta with the bacon (off the heat)',
+      'Quickly stir in the egg mixture while the pasta is still hot',
+      'Add a splash of pasta water to make it creamy',
+      'Sprinkle with extra cheese and enjoy!'
     ]
   },
   {
     id: '2',
-    title: 'Vegetarian Buddha Bowl',
-    description: 'A nourishing bowl filled with quinoa, roasted vegetables, and tahini dressing',
+    title: 'Rainbow Veggie Bowl',
+    description: 'Colorful bowl with rice, roasted veggies and yummy sauce',
     image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'lunch',
@@ -44,38 +43,34 @@ export const recipeData = [
     cookTime: '35 mins',
     servings: 2,
     ingredients: [
-      '1 cup quinoa',
-      '2 sweet potatoes, cubed',
+      '1 cup rice',
+      '2 sweet potatoes, cut into cubes',
       '1 can chickpeas, drained and rinsed',
-      '2 cups fresh kale, chopped',
-      '1 ripe avocado',
-      '2 tablespoons tahini',
+      '2 cups kale leaves, torn into pieces',
+      '1 avocado',
+      '2 tablespoons tahini or peanut butter',
       '3 tablespoons olive oil',
-      '1 lemon, juiced',
-      '1 teaspoon cumin',
-      '1 teaspoon paprika',
-      'Salt and pepper to taste',
-      '1/4 cup mixed seeds (pumpkin, sunflower)'
+      'Juice from 1 lemon',
+      'Salt and pepper'
     ],
     instructions: [
-      'Preheat oven to 400°F (200°C)',
-      'Rinse quinoa and cook according to package instructions',
-      'Toss sweet potatoes with 1 tbsp olive oil, cumin, salt, and pepper',
-      'Spread sweet potatoes on baking sheet, roast for 25 minutes',
-      'Toss chickpeas with 1 tbsp olive oil, paprika, salt, and pepper',
-      'Add chickpeas to another baking sheet, roast for 20 minutes until crispy',
-      'Massage kale with 1 tbsp olive oil and lemon juice',
-      'Make dressing by whisking tahini, remaining lemon juice, and water',
-      'Slice avocado',
-      'Assemble bowls: quinoa base, roasted vegetables, chickpeas, kale',
-      'Top with avocado slices and mixed seeds',
-      'Drizzle with tahini dressing'
+      'Ask a grown-up to turn on the oven to 400°F (200°C)',
+      'Rinse the rice and cook it following the package instructions',
+      'Mix sweet potato cubes with 1 spoon of olive oil, salt and pepper',
+      'Ask a grown-up to put the sweet potatoes in the oven for 25 minutes',
+      'Mix chickpeas with 1 spoon of olive oil, salt and pepper',
+      'Ask a grown-up to add chickpeas to the oven for 15 minutes until crispy',
+      'Mix kale with a bit of olive oil and lemon juice',
+      'For the dressing, mix tahini/peanut butter with lemon juice and a bit of water',
+      'Cut the avocado into slices',
+      'Build your bowl: rice on the bottom, then add veggies, chickpeas and avocado',
+      'Drizzle the dressing on top and enjoy the rainbow!'
     ]
   },
   {
     id: '3',
-    title: 'Keto Chicken Alfredo',
-    description: 'Low-carb version of the classic pasta dish using zucchini noodles',
+    title: 'Cheesy Chicken with Zucchini Noodles',
+    description: 'Tasty chicken with veggie noodles and creamy sauce',
     image: 'https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'dinner',
@@ -84,36 +79,33 @@ export const recipeData = [
     servings: 4,
     ingredients: [
       '4 medium zucchini',
-      '2 large chicken breasts',
-      '2 cups heavy cream',
+      '2 chicken breasts',
+      '1 cup heavy cream',
       '4 oz cream cheese',
-      '1 cup parmesan cheese, grated',
+      '1 cup grated parmesan',
       '4 cloves garlic, minced',
       '4 tablespoons butter',
-      '1 tablespoon Italian seasoning',
-      'Salt and pepper to taste',
-      '2 tablespoons olive oil',
-      'Fresh parsley for garnish'
+      '1 tablespoon Italian herbs',
+      'Salt and pepper',
+      '2 tablespoons olive oil'
     ],
     instructions: [
-      'Spiralize zucchini into noodles, set aside on paper towels',
-      'Season chicken breasts with Italian seasoning, salt, and pepper',
-      'Heat olive oil in a large skillet over medium-high heat',
-      'Cook chicken until golden and cooked through (6-7 minutes per side)',
-      'Remove chicken, let rest, then slice',
-      'In the same pan, melt butter and sauté garlic until fragrant',
-      'Add heavy cream and cream cheese, simmer until cream cheese melts',
-      'Stir in parmesan cheese until sauce thickens',
-      'Add chicken back to pan',
-      'Add zucchini noodles, toss gently for 2-3 minutes until just tender',
-      'Season with salt and pepper to taste',
-      'Garnish with fresh parsley and serve'
+      'Ask a grown-up to help you turn zucchini into noodles using a spiralizer',
+      'Season chicken with Italian herbs, salt and pepper',
+      'Ask a grown-up to cook chicken in a pan until golden and no longer pink inside',
+      'Let chicken rest, then cut into slices',
+      'Ask a grown-up to melt butter and cook garlic in the same pan',
+      'Add cream and cream cheese, stir until cream cheese melts',
+      'Add parmesan cheese and stir until sauce gets thick',
+      'Add chicken back to the pan',
+      'Add zucchini noodles and cook for 2-3 minutes until just soft',
+      'Add salt and pepper to taste - dinner is ready!'
     ]
   },
   {
     id: '4',
-    title: 'Vegan Mexican Tacos',
-    description: 'Plant-based tacos with mushroom and walnut filling',
+    title: 'Veggie Tacos',
+    description: 'Plant-based tacos with mushroom filling',
     image: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800',
     cuisineType: 'mexican',
     mealType: 'dinner',
@@ -121,37 +113,33 @@ export const recipeData = [
     cookTime: '25 mins',
     servings: 4,
     ingredients: [
-      '12 corn tortillas',
-      '16 oz mushrooms, finely chopped',
-      '1 cup walnuts, finely chopped',
+      '12 corn or flour tortillas',
+      '16 oz mushrooms, chopped small',
+      '1 cup walnuts, chopped small',
       '2 tablespoons taco seasoning',
-      '2 ripe avocados',
+      '2 avocados',
       '2 limes',
       '1/2 cup fresh cilantro, chopped',
-      '1 red onion, finely diced',
+      '1 red onion, diced small',
       '2 tablespoons olive oil',
-      '1 tablespoon soy sauce',
-      'Salt to taste',
-      'Optional toppings: vegan sour cream, hot sauce'
+      'Salt to taste'
     ],
     instructions: [
-      'Pulse mushrooms and walnuts in food processor until finely chopped',
-      'Heat olive oil in a large skillet over medium heat',
-      'Add mushroom-walnut mixture and taco seasoning',
-      'Cook for 8-10 minutes, stirring occasionally',
-      'Add soy sauce and cook for additional 2 minutes',
-      'Meanwhile, mash avocados with lime juice and salt',
-      'Warm tortillas in a dry skillet or microwave',
-      'Finely dice onion and chop cilantro',
-      'Assemble tacos: tortilla, mushroom filling, guacamole',
-      'Top with onion, cilantro, and optional toppings',
-      'Serve with lime wedges'
+      'Chop mushrooms and walnuts into very small pieces',
+      'Ask a grown-up to help you heat oil in a pan',
+      'Cook mushrooms, walnuts and taco seasoning for 8-10 minutes, stirring often',
+      'Mash avocados with lime juice and a pinch of salt to make guacamole',
+      'Ask a grown-up to warm tortillas in a dry pan or microwave',
+      'Chop onion and cilantro into small pieces',
+      'Make your tacos: tortilla, mushroom mix, guacamole',
+      'Top with onion and cilantro',
+      'Squeeze lime juice on top and enjoy!'
     ]
   },
   {
     id: '5',
-    title: 'Chinese Stir-Fry Noodles',
-    description: 'Quick and flavorful stir-fried noodles with vegetables',
+    title: 'Easy Stir-Fry Noodles',
+    description: 'Quick and tasty noodles with colorful veggies',
     image: 'https://images.unsplash.com/photo-1619683548293-c74defe8d5d2?auto=format&fit=crop&w=800',
     cuisineType: 'chinese',
     mealType: 'dinner',
@@ -159,38 +147,32 @@ export const recipeData = [
     cookTime: '20 mins',
     servings: 4,
     ingredients: [
-      '400g lo mein or udon noodles',
-      '2 cups mixed vegetables (carrots, bell peppers, snap peas)',
+      '400g noodles (any kind you like)',
+      '2 cups mixed vegetables (carrots, bell peppers, peas)',
       '4 cloves garlic, minced',
-      '1-inch piece ginger, minced',
       '4 green onions, sliced',
       '3 tablespoons soy sauce',
-      '1 tablespoon dark soy sauce',
-      '2 tablespoons oyster sauce',
-      '1 tablespoon sesame oil',
-      '2 tablespoons vegetable oil',
-      'White pepper to taste',
-      'Optional: protein of choice (tofu, chicken, beef)'
+      '1 tablespoon honey or maple syrup',
+      '1 tablespoon oil',
+      'Optional: tofu, chicken or other protein'
     ],
     instructions: [
-      'Cook noodles according to package instructions, drain and set aside',
-      'Mix soy sauces and oyster sauce in a small bowl',
-      'Heat wok or large pan over high heat',
-      'Add vegetable oil, then add garlic and ginger',
-      'Stir-fry for 30 seconds until fragrant',
-      'Add harder vegetables (carrots) first, stir-fry 2 minutes',
-      'Add softer vegetables, stir-fry 1-2 minutes',
-      'Add noodles to pan',
-      'Pour sauce mixture over noodles',
-      'Toss everything together until well combined',
-      'Add sesame oil and white pepper',
-      'Garnish with green onions and serve hot'
+      'Ask a grown-up to help you cook noodles according to package instructions',
+      'Mix soy sauce and honey/maple syrup in a small bowl',
+      'Ask a grown-up to heat oil in a large pan or wok',
+      'Add garlic and cook for 30 seconds',
+      'Add harder vegetables (like carrots) first and cook for 2 minutes',
+      'Add softer vegetables and cook for 1-2 more minutes',
+      'Add cooked noodles to the pan',
+      'Pour sauce over noodles',
+      'Stir everything together until well mixed',
+      'Top with green onions and enjoy your stir-fry!'
     ]
   },
   {
     id: '6',
-    title: 'Mexican Breakfast Burrito',
-    description: 'Hearty breakfast burrito filled with eggs, beans, and cheese',
+    title: 'Breakfast Burrito Wraps',
+    description: 'Yummy breakfast wraps with eggs and cheese',
     image: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800',
     cuisineType: 'mexican',
     mealType: 'breakfast',
@@ -198,26 +180,29 @@ export const recipeData = [
     cookTime: '20 mins',
     servings: 2,
     ingredients: [
-      '4 large eggs',
+      '4 eggs',
       '2 large flour tortillas',
       '1 cup black beans, drained',
-      '1 cup shredded cheddar cheese',
+      '1 cup shredded cheese',
       'Salsa to taste',
       'Salt and pepper'
     ],
     instructions: [
-      'Scramble eggs with salt and pepper',
-      'Warm tortillas in a pan',
-      'Heat black beans',
-      'Assemble burritos with eggs, beans, cheese',
-      'Add salsa and roll up',
-      'Optional: grill for crispy exterior'
+      'Ask a grown-up to help you crack eggs into a bowl',
+      'Add a pinch of salt and pepper, then beat the eggs with a fork',
+      'Ask a grown-up to help you cook the eggs in a pan, stirring often',
+      'Warm tortillas in the microwave (about 10 seconds)',
+      'Heat black beans in the microwave or in a small pot',
+      'Place eggs, beans, and cheese on each tortilla',
+      'Add a spoonful of salsa',
+      'Roll up the tortilla like a burrito',
+      'Optional: ask a grown-up to grill the burrito until crispy'
     ]
   },
   {
     id: '7',
-    title: 'Vegan Italian Pasta Primavera',
-    description: 'Light and fresh pasta loaded with spring vegetables',
+    title: 'Rainbow Pasta',
+    description: 'Colorful pasta loaded with spring vegetables',
     image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'lunch',
@@ -225,25 +210,27 @@ export const recipeData = [
     cookTime: '25 mins',
     servings: 4,
     ingredients: [
-      '1 pound whole grain pasta',
-      'Assorted vegetables (broccoli, carrots, peas)',
+      '1 pound pasta (any shape you like)',
+      'Colorful vegetables (broccoli, carrots, peas)',
       'Olive oil',
       'Garlic',
       'Fresh herbs',
-      'Vegan parmesan'
+      'Grated cheese or vegan cheese'
     ],
     instructions: [
-      'Cook pasta according to package',
-      'Sauté vegetables in olive oil',
-      'Add garlic and herbs',
-      'Combine with pasta',
-      'Top with vegan parmesan'
+      'Ask a grown-up to help you boil water for pasta',
+      'Add pasta to boiling water and cook until soft but still firm',
+      'Ask a grown-up to help you cook vegetables in a pan with olive oil',
+      'Add garlic and herbs to the vegetables',
+      'When pasta is done, drain it (ask for help)',
+      'Mix pasta with cooked vegetables',
+      'Sprinkle cheese on top and enjoy!'
     ]
   },
   {
     id: '8',
-    title: 'Gluten-Free Chinese Fried Rice',
-    description: 'Classic fried rice made with gluten-free soy sauce',
+    title: 'Easy Fried Rice',
+    description: 'Simple and tasty rice with vegetables',
     image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800',
     cuisineType: 'chinese',
     mealType: 'dinner',
@@ -251,23 +238,28 @@ export const recipeData = [
     cookTime: '20 mins',
     servings: 4,
     ingredients: [
-      '4 cups cooked rice',
-      'Mixed vegetables',
-      'Gluten-free soy sauce',
-      'Eggs',
-      'Green onions'
+      '4 cups cooked rice (best if cooled)',
+      'Mixed vegetables (peas, carrots, corn)',
+      'Soy sauce or tamari (gluten-free)',
+      '2 eggs',
+      'Green onions for topping'
     ],
     instructions: [
-      'Scramble eggs in wok',
-      'Add vegetables and rice',
-      'Season with gluten-free soy sauce',
-      'Garnish with green onions'
+      'Ask a grown-up to help you cook rice ahead of time and let it cool',
+      'Ask for help to scramble eggs in a large pan',
+      'Set eggs aside, then cook vegetables in the same pan',
+      'Add rice to the pan and break up any clumps',
+      'Pour in a little soy sauce (not too much!)',
+      'Add scrambled eggs back to the pan',
+      'Mix everything together',
+      'Sprinkle green onions on top',
+      'Enjoy your homemade fried rice!'
     ]
   },
   {
     id: '9',
-    title: 'Keto American Breakfast Bowl',
-    description: 'Low-carb breakfast bowl with eggs and avocado',
+    title: 'Egg & Avocado Breakfast Bowl',
+    description: 'Healthy breakfast with eggs and avocado',
     image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'breakfast',
@@ -275,48 +267,55 @@ export const recipeData = [
     cookTime: '15 mins',
     servings: 1,
     ingredients: [
-      'Eggs',
-      'Avocado',
-      'Bacon',
-      'Spinach',
-      'Cheese'
+      '2 eggs',
+      '1 avocado',
+      '2 strips bacon',
+      'Handful of spinach',
+      'Sprinkle of cheese'
     ],
     instructions: [
-      'Cook bacon until crispy',
-      'Scramble eggs in bacon fat',
-      'Arrange in bowl with sliced avocado',
-      'Add fresh spinach and cheese'
+      'Ask a grown-up to help you cook bacon until crispy',
+      'Ask for help to cook eggs how you like them',
+      'Slice avocado (be careful with the knife or ask for help)',
+      'Put spinach in a bowl',
+      'Add eggs, bacon pieces, and avocado slices',
+      'Sprinkle cheese on top',
+      'Your breakfast bowl is ready to eat!'
     ]
   },
   {
     id: '10',
-    title: 'Vegetarian Mexican Enchiladas',
-    description: 'Cheese and bean enchiladas with red sauce',
+    title: 'Cheesy Bean Wraps',
+    description: 'Easy bean and cheese wraps with sauce',
     image: 'https://images.unsplash.com/photo-1534352956036-cd81e27dd615?auto=format&fit=crop&w=800',
     cuisineType: 'mexican',
     mealType: 'dinner',
     dietaryRestrictions: ['vegetarian'],
-    cookTime: '45 mins',
+    cookTime: '25 mins',
     servings: 6,
     ingredients: [
-      'Corn tortillas',
-      'Enchilada sauce',
-      'Black beans',
-      'Cheese',
-      'Onions'
+      'Corn or flour tortillas',
+      'Enchilada sauce (or mild taco sauce)',
+      'Black beans, drained',
+      'Shredded cheese',
+      'Diced onions (optional)'
     ],
     instructions: [
-      'Prepare enchilada sauce',
-      'Fill tortillas with beans and cheese',
-      'Roll and arrange in baking dish',
-      'Cover with sauce and cheese',
-      'Bake until bubbly'
+      'Ask a grown-up to preheat the oven to 350°F (180°C)',
+      'Spread a spoonful of sauce in a baking dish',
+      'Fill each tortilla with beans and cheese',
+      'Roll them up and place in the baking dish',
+      'Pour more sauce over the top',
+      'Sprinkle with more cheese',
+      'Ask a grown-up to put the dish in the oven',
+      'Bake for 15-20 minutes until bubbly and cheese is melted',
+      'Let cool slightly before eating - careful, it's hot!'
     ]
   },
   {
     id: '11',
-    title: 'Vegan Chinese Dumplings',
-    description: 'Steamed dumplings with mushroom and vegetable filling',
+    title: 'Veggie Dumplings',
+    description: 'Steamed dumplings with mushroom filling',
     image: 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=800',
     cuisineType: 'chinese',
     mealType: 'lunch',
@@ -324,23 +323,27 @@ export const recipeData = [
     cookTime: '40 mins',
     servings: 4,
     ingredients: [
-      'Dumpling wrappers',
-      'Mushrooms',
-      'Cabbage',
-      'Carrots',
-      'Ginger'
+      'Dumpling wrappers (from store)',
+      'Mushrooms, chopped small',
+      'Cabbage, chopped small',
+      'Carrots, grated',
+      'Fresh ginger, grated (just a little bit)'
     ],
     instructions: [
-      'Prepare filling',
-      'Fill and fold dumplings',
-      'Steam for 10 minutes',
-      'Serve with dipping sauce'
+      'Mix chopped mushrooms, cabbage, and grated carrots in a bowl',
+      'Add a tiny bit of grated ginger (it\'s strong!)',
+      'Place a small spoonful of filling in the center of each wrapper',
+      'Wet the edge of the wrapper with water using your finger',
+      'Fold the wrapper in half and pinch the edges to seal',
+      'Ask a grown-up to help you set up a steamer',
+      'Steam dumplings for about 10 minutes until soft',
+      'Let cool slightly before eating - they\'re hot!'
     ]
   },
   {
     id: '12',
-    title: 'Gluten-Free Italian Risotto',
-    description: 'Creamy risotto made with arborio rice and fresh herbs',
+    title: 'Creamy Rice Bowl',
+    description: 'Soft rice with cheese and herbs',
     image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'dinner',
@@ -348,26 +351,29 @@ export const recipeData = [
     cookTime: '30 mins',
     servings: 4,
     ingredients: [
-      '1 cup arborio rice',
-      '4 cups vegetable broth',
-      '1 onion, chopped',
+      '1 cup rice (arborio works best)',
+      '4 cups chicken or vegetable broth',
+      '1 onion, chopped small',
       '2 cloves garlic, minced',
-      '1/2 cup parmesan cheese',
+      '1/2 cup grated parmesan cheese',
       'Fresh herbs (parsley, basil)',
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Sauté onion and garlic in a pot',
-      'Add arborio rice and stir for 2 minutes',
-      'Gradually add broth, stirring constantly',
-      'Cook until rice is creamy and al dente',
-      'Stir in parmesan and herbs before serving'
+      'Ask a grown-up to help you chop onion and garlic',
+      'Ask a grown-up to help you cook onion and garlic in a pot',
+      'Add rice and stir for 2 minutes',
+      'Slowly add broth, one cup at a time, stirring often',
+      'Wait until each cup of broth is absorbed before adding more',
+      'Keep stirring and adding broth until rice is soft and creamy',
+      'Turn off heat and stir in cheese and herbs',
+      'Let cool slightly before eating'
     ]
   },
   {
     id: '13',
-    title: 'Keto Vegan Salad',
-    description: 'Low-carb salad with avocado, nuts, and greens',
+    title: 'Rainbow Salad Bowl',
+    description: 'Colorful salad with avocado, nuts, and greens',
     image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'lunch',
@@ -383,40 +389,47 @@ export const recipeData = [
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Combine greens, avocado, and nuts in a bowl',
-      'Drizzle with olive oil and lemon juice',
-      'Season with salt and pepper, toss to combine'
+      'Wash the greens and place in a bowl',
+      'Ask a grown-up to help you cut the avocado',
+      'Add avocado slices and nuts to the bowl',
+      'Drizzle with a little olive oil and squeeze lemon juice over top',
+      'Add a tiny pinch of salt and pepper',
+      'Toss gently to mix everything together',
+      'Your healthy salad is ready to eat!'
     ]
   },
   {
     id: '14',
-    title: 'Vegetarian Chinese Mapo Tofu',
-    description: 'Spicy tofu dish with a rich sauce',
+    title: 'Tofu Cubes in Sauce',
+    description: 'Soft tofu in a flavorful sauce',
     image: 'https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?auto=format&fit=crop&w=800',
     cuisineType: 'chinese',
     mealType: 'dinner',
     dietaryRestrictions: ['vegetarian'],
-    cookTime: '30 mins',
+    cookTime: '20 mins',
     servings: 4,
     ingredients: [
-      '1 block firm tofu, cubed',
+      '1 block firm tofu, cut into cubes',
       '2 tablespoons soy sauce',
-      '1 tablespoon chili paste',
+      '1 tablespoon mild sauce (ketchup works too!)',
       '1 onion, chopped',
       '2 cloves garlic, minced',
-      'Green onions for garnish'
+      'Green onions for topping'
     ],
     instructions: [
-      'Sauté onion and garlic in a pan',
-      'Add tofu and cook until golden',
-      'Stir in soy sauce and chili paste',
-      'Cook for 5 more minutes, garnish with green onions'
+      'Ask a grown-up to help you cut tofu into cubes',
+      'Ask a grown-up to help you cook onion and garlic in a pan',
+      'Add tofu cubes and cook until slightly golden',
+      'Add soy sauce and your mild sauce',
+      'Stir everything gently and cook for 5 more minutes',
+      'Sprinkle with green onions before serving',
+      'Enjoy with rice or noodles!'
     ]
   },
   {
     id: '15',
-    title: 'Keto Mexican Cauliflower Rice',
-    description: 'Low-carb cauliflower rice with spices',
+    title: 'Cauliflower Rice Bowl',
+    description: 'Rice made from vegetables with spices',
     image: '/lovable-uploads/a33e8ecc-7b76-4198-91d4-81c9e1a4d73a.png',
     cuisineType: 'mexican',
     mealType: 'lunch',
@@ -424,22 +437,26 @@ export const recipeData = [
     cookTime: '15 mins',
     servings: 4,
     ingredients: [
-      '1 head cauliflower, grated',
+      '1 head cauliflower, grated or processed into small pieces',
       '1 tablespoon olive oil',
       '1 teaspoon cumin',
-      '1 teaspoon chili powder',
+      '1 teaspoon mild chili powder',
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Heat olive oil in a pan',
-      'Add cauliflower and spices, sauté for 5-7 minutes',
-      'Serve as a side dish or base for tacos'
+      'Ask a grown-up to help you grate cauliflower or pulse in a food processor',
+      'Ask a grown-up to heat oil in a pan',
+      'Add cauliflower rice and spices',
+      'Cook for 5-7 minutes, stirring often',
+      'Season with salt and pepper',
+      'Serve as a side dish or use as a base for tacos',
+      'Top with your favorite toppings'
     ]
   },
   {
     id: '16',
-    title: 'Vegan Italian Caprese Salad',
-    description: 'Fresh salad with tomatoes, basil, and vegan mozzarella',
+    title: 'Tomato & Basil Salad',
+    description: 'Fresh salad with tomatoes and herbs',
     image: 'https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'lunch',
@@ -449,21 +466,25 @@ export const recipeData = [
     ingredients: [
       '2 large tomatoes, sliced',
       'Fresh basil leaves',
-      'Vegan mozzarella',
+      'Dairy-free cheese (optional)',
       'Balsamic vinegar',
       'Olive oil',
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Layer tomatoes, basil, and mozzarella on a plate',
-      'Drizzle with balsamic vinegar and olive oil',
-      'Season with salt and pepper before serving'
+      'Ask a grown-up to help you slice tomatoes',
+      'Arrange tomato slices on a plate',
+      'Tear basil leaves with your hands and sprinkle over tomatoes',
+      'Add dairy-free cheese if using',
+      'Drizzle with a little balsamic vinegar and olive oil',
+      'Add a tiny pinch of salt and pepper',
+      'Your simple salad is ready to enjoy!'
     ]
   },
   {
     id: '17',
-    title: 'Gluten-Free American Pancakes',
-    description: 'Fluffy pancakes made with gluten-free flour',
+    title: 'Fluffy Pancakes',
+    description: 'Easy pancakes made with gluten-free flour',
     image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'breakfast',
@@ -480,16 +501,20 @@ export const recipeData = [
     ],
     instructions: [
       'Mix flour, baking powder, and sugar in a bowl',
-      'In another bowl, whisk milk and egg',
-      'Combine wet and dry ingredients, mix until smooth',
-      'Heat butter in a pan, pour batter to form pancakes',
-      'Cook until bubbles form, flip and cook until golden'
+      'Ask a grown-up to help you crack the egg into another bowl',
+      'Add milk to the egg and mix with a fork',
+      'Pour wet ingredients into dry ingredients and stir gently',
+      'Ask a grown-up to heat a pan with a little butter',
+      'Pour small circles of batter into the pan',
+      'When bubbles appear on top, ask a grown-up to flip the pancakes',
+      'Cook until golden brown on both sides',
+      'Serve with your favorite toppings!'
     ]
   },
   {
     id: '18',
-    title: 'Keto Vegan Chocolate Mousse',
-    description: 'Rich and creamy chocolate mousse without sugar',
+    title: 'Chocolate Avocado Pudding',
+    description: 'Creamy chocolate pudding with a healthy twist',
     image: 'https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'dessert',
@@ -497,22 +522,27 @@ export const recipeData = [
     cookTime: '15 mins',
     servings: 4,
     ingredients: [
-      '1 avocado',
+      '1 ripe avocado',
       '1/4 cup cocoa powder',
       '1/4 cup almond milk',
       '1/4 cup sweetener of choice',
       '1 teaspoon vanilla extract'
     ],
     instructions: [
-      'Blend all ingredients until smooth',
-      'Chill in the fridge for 30 minutes before serving',
-      'Serve with berries or nuts on top'
+      'Ask a grown-up to help you cut and scoop out the avocado',
+      'Put all ingredients in a blender',
+      'Ask a grown-up to help you blend until smooth',
+      'If it's too thick, add a little more milk',
+      'Spoon into bowls or cups',
+      'Chill in the fridge for 30 minutes',
+      'Top with berries or chopped nuts if you like',
+      'Enjoy your secret-ingredient pudding!'
     ]
   },
   {
     id: '19',
-    title: 'Vegetarian Italian Stuffed Peppers',
-    description: 'Bell peppers filled with rice, beans, and cheese',
+    title: 'Stuffed Bell Peppers',
+    description: 'Peppers filled with rice and beans',
     image: '/lovable-uploads/c6082ec9-e744-4532-880f-d0e61bc37083.png',
     cuisineType: 'italian',
     mealType: 'dinner',
@@ -528,17 +558,21 @@ export const recipeData = [
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Preheat oven to 375°F (190°C)',
-      'Cut tops off peppers and remove seeds',
-      'Mix rice, beans, cheese, and seasoning in a bowl',
-      'Stuff peppers with mixture, place in baking dish',
-      'Bake for 30-35 minutes until peppers are tender'
+      'Ask a grown-up to preheat the oven to 375°F (190°C)',
+      'Ask a grown-up to cut the tops off the peppers and remove seeds',
+      'In a bowl, mix rice, beans, half the cheese, and seasonings',
+      'Stuff each pepper with the mixture',
+      'Place peppers in a baking dish',
+      'Sprinkle remaining cheese on top',
+      'Ask a grown-up to put the dish in the oven',
+      'Bake for 30-35 minutes until peppers are soft',
+      'Let cool for a few minutes before eating - they're hot!'
     ]
   },
   {
     id: '20',
-    title: 'Keto Mexican Chicken Salad',
-    description: 'Low-carb salad with chicken, avocado, and cheese',
+    title: 'Chicken & Avocado Salad',
+    description: 'Simple salad with chicken, avocado, and cheese',
     image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800',
     cuisineType: 'mexican',
     mealType: 'lunch',
@@ -546,21 +580,25 @@ export const recipeData = [
     cookTime: '15 mins',
     servings: 2,
     ingredients: [
-      '2 cups cooked chicken, shredded',
+      '2 cups cooked chicken, torn into pieces',
       '1 avocado, diced',
       '1/2 cup shredded cheese',
       '1/4 cup salsa',
-      'Lettuce for serving'
+      'Lettuce leaves'
     ],
     instructions: [
-      'Combine chicken, avocado, cheese, and salsa in a bowl',
-      'Serve over a bed of lettuce'
+      'Tear cooked chicken into bite-sized pieces',
+      'Ask a grown-up to help you cut the avocado into cubes',
+      'Put lettuce leaves on plates or in bowls',
+      'Mix chicken, avocado, cheese, and salsa in a bowl',
+      'Spoon the mixture over lettuce',
+      'Your simple salad is ready to eat!'
     ]
   },
   {
     id: '21',
-    title: 'Vegan American BBQ Jackfruit Sandwiches',
-    description: 'Pulled jackfruit in BBQ sauce served on buns',
+    title: 'BBQ Sandwich',
+    description: 'Tasty sandwich with BBQ sauce',
     image: 'https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'dinner',
@@ -568,21 +606,26 @@ export const recipeData = [
     cookTime: '30 mins',
     servings: 4,
     ingredients: [
-      '2 cans young green jackfruit, drained',
+      '2 cans young jackfruit, drained',
       '1 cup BBQ sauce',
       '4 burger buns',
       'Coleslaw for topping'
     ],
     instructions: [
-      'Sauté jackfruit in a pan until tender',
-      'Add BBQ sauce and cook for 10 minutes',
-      'Serve on buns topped with coleslaw'
+      'Ask a grown-up to help you drain and rinse the jackfruit',
+      'Pull the jackfruit apart with your fingers or a fork',
+      'Ask a grown-up to cook jackfruit in a pan for 5 minutes',
+      'Add BBQ sauce and cook for 10 more minutes',
+      'Toast burger buns if you like',
+      'Pile jackfruit mixture onto buns',
+      'Top with coleslaw',
+      'Enjoy your messy, delicious sandwich!'
     ]
   },
   {
     id: '22',
-    title: 'Gluten-Free Vegan Chocolate Chip Cookies',
-    description: 'Delicious cookies made without gluten or dairy',
+    title: 'Easy Chocolate Cookies',
+    description: 'Simple cookies without gluten or dairy',
     image: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800',
     cuisineType: 'american',
     mealType: 'dessert',
@@ -598,16 +641,20 @@ export const recipeData = [
       '1/2 teaspoon baking soda'
     ],
     instructions: [
-      'Preheat oven to 350°F (175°C)',
-      'Mix all ingredients in a bowl until combined',
-      'Scoop onto a baking sheet and flatten slightly',
-      'Bake for 10-12 minutes until golden'
+      'Ask a grown-up to preheat the oven to 350°F (175°C)',
+      'Mix all ingredients in a bowl until well combined',
+      'Roll dough into small balls (about the size of a ping pong ball)',
+      'Place on a baking sheet lined with parchment paper',
+      'Press down gently with a fork to flatten slightly',
+      'Ask a grown-up to put them in the oven',
+      'Bake for 10-12 minutes until golden around the edges',
+      'Let cool before eating - they'll get firmer as they cool'
     ]
   },
   {
     id: '23',
-    title: 'Keto Italian Zucchini Noodles',
-    description: 'Low-carb noodles made from zucchini with marinara sauce',
+    title: 'Veggie Noodles with Sauce',
+    description: 'Noodles made from zucchini with tomato sauce',
     image: 'https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'dinner',
@@ -615,22 +662,25 @@ export const recipeData = [
     cookTime: '20 mins',
     servings: 2,
     ingredients: [
-      '2 medium zucchinis, spiralized',
-      '1 cup marinara sauce',
+      '2 medium zucchini',
+      '1 cup pasta sauce',
       '1 tablespoon olive oil',
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Heat olive oil in a pan',
-      'Add zucchini noodles and sauté for 3-4 minutes',
-      'Add marinara sauce and cook until heated through',
-      'Season with salt and pepper before serving'
+      'Ask a grown-up to help you turn zucchini into noodles using a spiralizer',
+      'If you don't have a spiralizer, ask for help using a peeler to make ribbons',
+      'Ask a grown-up to heat olive oil in a pan',
+      'Add zucchini noodles and cook for 3-4 minutes until slightly soft',
+      'Add pasta sauce and stir until warm',
+      'Add a little salt and pepper to taste',
+      'Your veggie noodles are ready to enjoy!'
     ]
   },
   {
     id: '24',
-    title: 'Vegan Mexican Quinoa Salad',
-    description: 'Healthy salad with quinoa, black beans, and corn',
+    title: 'Rainbow Quinoa Salad',
+    description: 'Colorful salad with quinoa and beans',
     image: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=800',
     cuisineType: 'mexican',
     mealType: 'lunch',
@@ -647,14 +697,20 @@ export const recipeData = [
       'Salt and pepper to taste'
     ],
     instructions: [
-      'Combine all ingredients in a bowl',
-      'Toss to mix and serve chilled or at room temperature'
+      'Ask a grown-up to help you cook quinoa ahead of time and let it cool',
+      'Drain and rinse black beans',
+      'Ask a grown-up to help you chop bell pepper into small pieces',
+      'Combine quinoa, beans, corn, and bell pepper in a bowl',
+      'Add chopped cilantro',
+      'Squeeze lime juice over the top',
+      'Add a tiny pinch of salt and pepper',
+      'Mix everything together and enjoy!'
     ]
   },
   {
     id: '25',
-    title: 'Italian Breakfast Frittata',
-    description: 'Fluffy egg frittata with Italian herbs and vegetables',
+    title: 'Veggie Egg Bake',
+    description: 'Fluffy eggs with vegetables and herbs',
     image: 'https://images.unsplash.com/photo-1513442542250-854d436a73f2?auto=format&fit=crop&w=800',
     cuisineType: 'italian',
     mealType: 'breakfast',
@@ -663,16 +719,23 @@ export const recipeData = [
     servings: 6,
     ingredients: [
       '8 eggs',
-      'Mixed vegetables',
-      'Italian herbs',
-      'Parmesan cheese',
-      'Olive oil'
+      '2 cups mixed vegetables (spinach, tomatoes, bell peppers)',
+      '1 teaspoon Italian herbs',
+      '1/2 cup grated cheese',
+      '1 tablespoon olive oil'
     ],
     instructions: [
-      'Sauté vegetables',
-      'Add beaten eggs and herbs',
-      'Cook until set',
-      'Finish under broiler'
+      'Ask a grown-up to preheat the oven to 350°F (175°C)',
+      'Ask a grown-up to help you chop vegetables into small pieces',
+      'Ask a grown-up to heat oil in an oven-safe pan',
+      'Cook vegetables until soft',
+      'Ask a grown-up to help you crack eggs into a bowl',
+      'Beat eggs with a fork and add herbs',
+      'Pour eggs over vegetables in the pan',
+      'Sprinkle cheese on top',
+      'Ask a grown-up to put the pan in the oven',
+      'Bake for 15-20 minutes until eggs are set',
+      'Let cool slightly before eating'
     ]
   }
 ];

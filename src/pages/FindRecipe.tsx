@@ -37,14 +37,7 @@ const FindRecipe = () => {
       
       <div className="pt-24 pb-12 px-4">
         <div className="container mx-auto">
-          <motion.h1 
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-4xl font-bold text-center mb-8"
-          >
-            What's on your mind?
-          </motion.h1>
+          {/* Removed the top "What's on your mind?" heading */}
           
           <motion.div
             initial={{ opacity: 0, y: 20 }}
