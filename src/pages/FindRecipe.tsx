@@ -37,8 +37,7 @@ const FindRecipe = () => {
       
       <div className="pt-24 pb-12 px-4">
         <div className="container mx-auto">
-          {/* Removed the top "What's on your mind?" heading */}
-          
+          {/* Search section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
