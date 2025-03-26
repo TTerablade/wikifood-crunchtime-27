@@ -1,4 +1,3 @@
-
 export const recipeData = [
   {
     id: '1',
@@ -309,7 +308,7 @@ export const recipeData = [
       'Sprinkle with more cheese',
       'Ask a grown-up to put the dish in the oven',
       'Bake for 15-20 minutes until bubbly and cheese is melted',
-      'Let cool slightly before eating - careful, it's hot!'
+      'Let cool slightly before eating - careful, it\'s hot!'
     ]
   },
   {
@@ -532,7 +531,7 @@ export const recipeData = [
       'Ask a grown-up to help you cut and scoop out the avocado',
       'Put all ingredients in a blender',
       'Ask a grown-up to help you blend until smooth',
-      'If it's too thick, add a little more milk',
+      'If it\'s too thick, add a little more milk',
       'Spoon into bowls or cups',
       'Chill in the fridge for 30 minutes',
       'Top with berries or chopped nuts if you like',
@@ -566,7 +565,7 @@ export const recipeData = [
       'Sprinkle remaining cheese on top',
       'Ask a grown-up to put the dish in the oven',
       'Bake for 30-35 minutes until peppers are soft',
-      'Let cool for a few minutes before eating - they're hot!'
+      'Let cool for a few minutes before eating - they\'re hot!'
     ]
   },
   {
@@ -648,7 +647,7 @@ export const recipeData = [
       'Press down gently with a fork to flatten slightly',
       'Ask a grown-up to put them in the oven',
       'Bake for 10-12 minutes until golden around the edges',
-      'Let cool before eating - they'll get firmer as they cool'
+      'Let cool before eating - they\'ll get firmer as they cool'
     ]
   },
   {
@@ -669,7 +668,7 @@ export const recipeData = [
     ],
     instructions: [
       'Ask a grown-up to help you turn zucchini into noodles using a spiralizer',
-      'If you don't have a spiralizer, ask for help using a peeler to make ribbons',
+      'If you don\'t have a spiralizer, ask for help using a peeler to make ribbons',
       'Ask a grown-up to heat olive oil in a pan',
       'Add zucchini noodles and cook for 3-4 minutes until slightly soft',
       'Add pasta sauce and stir until warm',
