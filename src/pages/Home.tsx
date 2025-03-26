@@ -138,7 +138,7 @@ const Home = () => {
                 <ul className="space-y-2">
                   {section.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <span className="text-sm text-white/80 cursor-pointer hover:text-white">
+                      <span className="text-sm text-white/80">
                         {link}
                       </span>
                     </li>

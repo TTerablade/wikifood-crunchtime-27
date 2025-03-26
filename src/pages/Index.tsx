@@ -137,9 +137,9 @@ const Index = () => {
                 <ul className="space-y-2">
                   {section.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <a href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                      <span className="text-sm text-white/80">
                         {link}
-                      </a>
+                      </span>
                     </li>
                   ))}
                 </ul>
