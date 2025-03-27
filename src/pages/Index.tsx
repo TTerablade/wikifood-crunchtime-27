@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import RecipeFilter from "@/components/RecipeFilter";
@@ -137,9 +136,9 @@ const Index = () => {
                 <ul className="space-y-2">
                   {section.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <span className="text-sm text-white/80">
+                      <a href="#" className="text-sm text-white/80 hover:text-white transition-colors">
                         {link}
-                      </span>
+                      </a>
                     </li>
                   ))}
                 </ul>

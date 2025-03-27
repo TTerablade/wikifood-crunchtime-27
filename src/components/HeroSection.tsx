@@ -1,27 +1,12 @@
 
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
-import { useState, useEffect } from "react";
 import { useToast } from "./ui/use-toast";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 
 const HeroSection = () => {
-  const [activeText, setActiveText] = useState("Talk");
-  const textOptions = ["Talk", "Cook", "Look"];
   const { toast } = useToast();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const textRotationTimer = setInterval(() => {
-      setActiveText(currentText => {
-        const idx = textOptions.indexOf(currentText);
-        return textOptions[(idx + 1) % textOptions.length];
-      });
-    }, 2000);
-
-    return () => clearInterval(textRotationTimer);
-  }, []);
 
   function openTrailer() {
     window.open('https://www.youtube.com/watch?v=_DbRKvi5_OI', '_blank');
@@ -81,14 +66,12 @@ const HeroSection = () => {
 
           <h1 className="text-6xl md:text-7xl font-bold mb-6 text-white">
             <motion.span
-              key={activeText}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.5 }}
               className="text-yellow-400 inline-block"
             >
-              {activeText}
+              Look
             </motion.span> Like A
             <br />
             Chef
