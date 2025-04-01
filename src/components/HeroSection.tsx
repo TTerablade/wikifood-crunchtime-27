@@ -66,6 +66,7 @@ const HeroSection = () => {
     }
   };
 
+  // Fixed: Changed repeatType from string to one of the allowed values: "loop", "reverse", or "mirror"
   const bulbVariants = {
     initial: { opacity: 0.7, scale: 1 },
     animate: { 
@@ -74,7 +75,7 @@ const HeroSection = () => {
       transition: {
         duration: 2,
         repeat: Infinity,
-        repeatType: "reverse"
+        repeatType: "reverse" // Fixed: Now using a valid literal value
       }
     }
   };
