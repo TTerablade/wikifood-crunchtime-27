@@ -7,3 +7,14 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Enable CORS headers
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Force cache invalidation
+[build.environment]
+  NETLIFY_FORCE_NEW_BUILD = "true"

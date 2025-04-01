@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
   return {
     server: serverConfig,
     // Add base path - this allows for deployment in subdirectories
-    base: './',
+    base: '/',  // Changed from './' to '/' for consistent path resolution
     build: {
       // Optimize build output
       outDir: 'dist',
@@ -31,6 +31,19 @@ export default defineConfig(({ mode }) => {
       minify: 'terser',
       // Chunk size warnings at 1000kb
       chunkSizeWarningLimit: 1000,
+      // Ensure static assets are handled correctly
+      assetsInlineLimit: 4096,
+      // Improve caching with content hash
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ['react', 'react-dom', 'react-router-dom', 'framer-motion']
+          },
+          entryFileNames: 'assets/[name]-[hash].js',
+          chunkFileNames: 'assets/[name]-[hash].js',
+          assetFileNames: 'assets/[name]-[hash].[ext]'
+        }
+      }
     },
     plugins: [
       react(),
