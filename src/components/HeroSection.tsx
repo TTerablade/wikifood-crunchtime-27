@@ -72,7 +72,7 @@ const HeroSection = () => {
       transition: {
         duration: 2,
         repeat: Infinity,
-        repeatType: "reverse" as const
+        repeatType: "reverse" as "reverse"
       }
     }
   };
