@@ -1,4 +1,3 @@
-
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -27,7 +26,7 @@ const HeroSection = () => {
   }, []);
 
   function openTrailer() {
-    window.open('https://www.youtube.com/watch?v=_DbRKvi5_OI', '_blank');
+    window.open('https://www.youtube.com/watch?v=GnvUB3K-n1E', '_blank');
     toast({
       title: "Trailer",
       description: "Opening video trailer...",
@@ -41,7 +40,6 @@ const HeroSection = () => {
     }
   };
 
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -66,7 +64,6 @@ const HeroSection = () => {
     }
   };
 
-  // Fixed: Changed repeatType from string to one of the allowed values: "loop", "reverse", or "mirror"
   const bulbVariants = {
     initial: { opacity: 0.7, scale: 1 },
     animate: { 
@@ -75,12 +72,11 @@ const HeroSection = () => {
       transition: {
         duration: 2,
         repeat: Infinity,
-        repeatType: "reverse" // Fixed: Now using a valid literal value
+        repeatType: "reverse" as const
       }
     }
   };
 
-  // Text variant animations
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { 
