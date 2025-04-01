@@ -12,15 +12,22 @@ RewriteRule ^ /index.html
 
 # Set cache control headers for assets
 <FilesMatch "\.(js|css|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$">
-  Header set Cache-Control "max-age=31536000, immutable"
+  Header set Cache-Control "max-age=0, must-revalidate"
 </FilesMatch>
 
 # Set cache control for HTML and JSON files
 <FilesMatch "\.(html|json)$">
-  Header set Cache-Control "no-cache"
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
 </FilesMatch>
 
 # Compress text files
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json
+</IfModule>
+
+# Disable browser caching
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires 0
 </IfModule>

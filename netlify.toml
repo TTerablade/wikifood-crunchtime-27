@@ -8,13 +8,28 @@
   to = "/index.html"
   status = 200
 
-# Enable CORS headers
+# Enhanced CORS and cache control headers
 [[headers]]
   for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=0, must-revalidate"
+    Clear-Site-Data = "\"cache\""
+    X-Content-Type-Options = "nosniff"
 
-# Force cache invalidation
+# Add versioning to assets
+[[headers]]
+  for = "*.js"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "*.css"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Force cache invalidation with timestamp
 [build.environment]
   NETLIFY_FORCE_NEW_BUILD = "true"
+  NETLIFY_CACHE_BUST = "${COMMIT_REF}"
+  BUILD_TIMESTAMP = "${TIMESTAMP}"

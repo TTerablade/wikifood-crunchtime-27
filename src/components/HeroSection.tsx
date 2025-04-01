@@ -1,4 +1,3 @@
-
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -30,7 +29,7 @@ const HeroSection = () => {
     window.open('https://www.youtube.com/watch?v=GnvUB3K-n1E', '_blank');
     toast({
       title: "Trailer",
-      description: "Opening video trailer...",
+      description: "Opening video trailer in a new tab...",
     });
   };
 
@@ -73,7 +72,7 @@ const HeroSection = () => {
       transition: {
         duration: 2,
         repeat: Infinity,
-        repeatType: "reverse" as "reverse"
+        repeatType: "reverse" as const
       }
     }
   };
@@ -182,7 +181,7 @@ const HeroSection = () => {
             </motion.span>
           </AnimatePresence> Like A
           <br />
-          Chef
+          Master Chef
         </motion.h1>
         
         <motion.p 
