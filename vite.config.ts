@@ -6,10 +6,14 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  // Server config
+  // Server config with enhanced caching controls
   const serverConfig = {
     host: "::",
     port: 8080,
+    headers: {
+      'Cache-Control': 'no-store, max-age=0',
+      'Clear-Site-Data': '"cache"',
+    },
     // Added proxy configuration in case it's needed for API calls
     proxy: {
       // Example: '/api': 'http://localhost:3000'
@@ -39,9 +43,9 @@ export default defineConfig(({ mode }) => {
           manualChunks: {
             vendor: ['react', 'react-dom', 'react-router-dom', 'framer-motion']
           },
-          entryFileNames: 'assets/[name]-[hash].js',
-          chunkFileNames: 'assets/[name]-[hash].js',
-          assetFileNames: 'assets/[name]-[hash].[ext]'
+          entryFileNames: 'assets/[name]-[hash]-[timestamp].js',
+          chunkFileNames: 'assets/[name]-[hash]-[timestamp].js',
+          assetFileNames: 'assets/[name]-[hash]-[timestamp].[ext]'
         }
       }
     },

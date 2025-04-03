@@ -1,4 +1,3 @@
-
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -182,14 +181,14 @@ const HeroSection = () => {
             </motion.span>
           </AnimatePresence> Like A
           <br />
-          Chef
+          Professional Chef
         </motion.h1>
         
         <motion.p 
           className="text-xl text-white/90 mb-8"
           variants={itemVariants}
         >
-          Master the art of cooking. Learn techniques and recipes from expert chefs around the world!
+          Learn the art of cooking. Explore techniques and recipes from expert chefs around the world!
         </motion.p>
 
         <motion.div variants={itemVariants}>

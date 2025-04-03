@@ -4,8 +4,8 @@ import App from './App.tsx'
 // Import styles
 import './index.css'
 
-// Force cache invalidation with timestamp
-console.log(`App initialized at: ${new Date().toISOString()}`);
+// Force cache invalidation with a stronger unique timestamp
+console.log(`App initialized at: ${new Date().toISOString()} - v${Math.random().toString(36).substring(2)}`);
 
 // Get the root element
 const rootElement = document.getElementById("root");
